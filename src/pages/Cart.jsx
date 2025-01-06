@@ -14,7 +14,7 @@ const Cart = ({ cartItems, onRemove, onDecrease, onIncrease, onReset }) => {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-[#FBFCFD] min-h-screen">
       <Header />
       <main className="container mx-auto">
         <div className="overflow-x-auto">

@@ -11,26 +11,26 @@ const CartDesktop = ({
   totalPrice,
 }) => {
   return (
-    <table className="min-w-full mt-10 border border-slate-200 hidden lg:table">
-      <thead className="border-b border-slate-200">
+    <table className="min-w-full mt-10 border border-slate-300 hidden lg:table">
+      <thead className="border-b border-slate-300">
         {/* Table Header */}
         <tr>
-          <th className="px-4 py-3 text-left text-sm font-medium text-slate-500"></th>
-          <th className="pr-24 py-3 text-left text-sm font-medium text-slate-500">
+          <th className="px-4 py-3 text-left border-b border-slate-300 text-sm font-medium text-slate-500"></th>
+          <th className="pr-24 py-3 text-left border-b border-slate-300 text-sm font-medium text-slate-500">
             Product
           </th>
-          <th className="px-6 py-3 text-left text-sm font-medium text-slate-500">
+          <th className="px-6 py-3 text-left border-b border-slate-300 text-sm font-medium text-slate-500">
             Description
           </th>
-          <th className="pl-24 py-3 text-left text-sm font-medium text-slate-500">
+          <th className="pl-24 py-3 text-left border-b border-slate-300 text-sm font-medium text-slate-500">
             Amount
           </th>
-          <th className="pl-24 py-3 text-left text-sm font-medium text-slate-500">
+          <th className="pl-24 py-3 text-left border-b border-slate-300  text-sm font-medium text-slate-500">
             Price
           </th>
         </tr>
       </thead>
-      <tbody className="border-b border-slate-200">
+      <tbody className="border-b border-slate-300">
         {cartItems.map((item, index) => (
           <CartItemDesktop
             key={index}

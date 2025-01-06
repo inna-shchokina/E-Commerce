@@ -5,11 +5,11 @@ import Items from "../components/Items";
 
 function Home({ items }) {
   return (
-    <>
+    <div className="bg-[#FBFCFD]">
       <Header />
       <FilterNav />
       <Items items={items} />
-    </>
+    </div>
   );
 }
 

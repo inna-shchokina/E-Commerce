@@ -12,7 +12,7 @@ function CounterButton({ itemsNumber, onSetItemsNumber }) {
   }
 
   return (
-    <div className="btn rounded-none bg-slate-100 py-1 px-4 w-[160px] h-[50px] flex justify-between">
+    <div className="btn rounded-sm bg-[#EEF1F6] hover:bg-[#E2E8F0] shadow-none py-1 px-4 w-[160px] h-[50px] flex justify-between">
       <button className="text-cyan-900" onClick={handleDecrease}>
         -
       </button>

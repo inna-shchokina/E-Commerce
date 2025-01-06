@@ -43,7 +43,7 @@ const CartMobile = ({
 
           {/* Counter */}
           <div className="flex justify-center items-center mt-10">
-          <div className="flex items-center bg-slate-200 rounded-sm w-24 h-8">
+          <div className="flex items-center bg-[#EEF1F6] rounded-sm w-24 h-8">
           <button
             className="px-3 py-1 text-cyan-600 font-semibold focus:outline-none"
                 onClick={() => onDecrease(index)}

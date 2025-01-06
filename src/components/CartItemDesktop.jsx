@@ -1,9 +1,9 @@
 
 const CartItemDesktop = ({ item, onRemove, onDecrease, onIncrease }) => {
   return (
-    <tr className="border-t border-slate-200">
+    <tr>
       {/* Delete button */}
-      <td className="px-6 py-4" width="5%">
+      <td className="px-6 border-b border-slate-300 py-4" width="5%">
         <div className="flex justify-center">
           <button className="text-slate-800 text-xl p-2" onClick={onRemove}>
             &times;
@@ -12,7 +12,7 @@ const CartItemDesktop = ({ item, onRemove, onDecrease, onIncrease }) => {
       </td>
 
       {/* Picture */}
-      <td className="pr-24 py-6" width="5%">
+      <td className="pr-24 border-b border-slate-300 py-6" width="5%">
       <div className="flex items-center w-[80px] h-[100px] rounded-sm py-2">
           <img
             src={item.image}
@@ -23,7 +23,7 @@ const CartItemDesktop = ({ item, onRemove, onDecrease, onIncrease }) => {
       </td>
 
       {/* Title and Description */}
-      <td className="px-6 ml-8 py-6 text-left" width="30%">
+      <td className="px-6 ml-8 py-6 border-b border-slate-300 text-left" width="30%">
         <div className="font-semibold text-sm text-slate-800">{item.title}</div>
         <div className="text-sm mt-2 line-clamp-3">
           {item.description || "No description available."}
@@ -31,8 +31,8 @@ const CartItemDesktop = ({ item, onRemove, onDecrease, onIncrease }) => {
       </td>
 
       {/* Counter */}
-      <td className="pl-24 py-6" width="5%">
-      <div className="flex items-center bg-slate-100 rounded-sm w-24 h-8">
+      <td className="pl-24 border-b border-slate-300 py-6" width="5%">
+      <div className="flex items-center bg-[#EEF1F6] rounded-sm w-24 h-8">
           <button
             className="px-3 py-1 text-cyan-600 font-semibold focus:outline-none"
             onClick={onDecrease}
@@ -50,7 +50,7 @@ const CartItemDesktop = ({ item, onRemove, onDecrease, onIncrease }) => {
       </td>
 
       {/* Price */}
-      <td className="pl-24 py-4 font-semibold text-base text-slate-800" width="2%">
+      <td className="pl-24 border-b border-slate-300 py-4 font-semibold text-base text-slate-800" width="2%">
         {item.price} €
       </td>
     </tr>
