@@ -26,6 +26,6 @@
 
 ### 📷 Screenshots
 
-<a href="https://github.com/inna-shchokina/E-Commerce/blob/main/E-commerce/E-commerce-1.jpg?raw=true" rel="noopener noreferrer">View Interface Screenshot 1</a> 
+<a href="https://github.com/inna-shchokina/E-Commerce/blob/main/E-commerce/E-commerce-1.jpg?raw=true" rel="noopener noreferrer">View Home Page</a> 
 <br>
-<a href="https://github.com/inna-shchokina/E-Commerce/blob/main/E-commerce/E-commerce-2.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Interface Screenshot 2</a>
+<a href="https://github.com/inna-shchokina/E-Commerce/blob/main/E-commerce/E-commerce-2.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Cart Page</a>
